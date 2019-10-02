@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* My code starts here */
+
+*{
+	margin-bottom: 15px;
+}
+	
+body{
+	margin-left: 80px;
+    width: 900px;
+}
+
+hr{
+	border: 1px solid black;
+}
+
+/* Navigation Code */
+
+#navbar{
+	display:flex;
+	height: 45px;
+	justify-content: space-evenly;
+	margin: 10px;
+		
+}
+
+#links{
+	display:flex;
+	justify-content: space-between;
+	width: 100%;
+	opacity: .6;
+	margin-left: 10px;
+}
+
+#navlogo{
+	display: flex;
+	justify-content: flex-end;
+	height: 40px;
+	
+	
+}
+
+nav a{
+	display: flex;
+	justify-content: space-evenly;
+	color:gray;
+	text-decoration: none;
+	font-family: 'Titillium Web', sans-serif;	
+	margin-top: 20px;
+}
+
+nav{
+	display: flex;
+	justify-content: space-evenly;
+	margin-right: 150px;
+	align-items: flex-start;
+}
+
+/* Header Picture Code */
+
+#headerpicture{
+	display:flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+/* Services Section */
+
+#services{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 95%;
+}
+
+h1{
+	font-size: 25px
+}
+
+/* Middle Content Boxes */
+
+#boxcontent{
+	display:flex;
+}
+#middleleft{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 47%;
+
+}
+
+#middleright{
+	display:flex;
+	flex-direction: column;
+	flex-direction: flex-end;
+	width: 47%;
+}
+
+#design, #marketing, #ios, #ux, #web, #android{
+	Border: 3px solid black;
+	margin: 20px;
+	padding: 15px;
+	background-color: whitesmoke;
+}
+
+button{
+	margin-top: 20px;
+	background-color:white;
+	padding-left: 20px;
+	padding-right: 20px
+}
+
+
+/* Bottom Content Code */
+
+#facts{
+	display: flex;
+	margin-right: 5px;
+	margin-bottom: 30px;
+	align-items: center;
+	width: 93%;
+}
+
+#factstext{
+	display: flex;
+	justify-content: space between;
+	font-size: 20px;
+	align-items: center;
+}
+
+#annoyingp{
+	margin-right: 30px;
+	padding-bottom: 20px;
+	font-size 14px;
+}
+
+ul{
+	list-style-type: disc;
+	margin-left: 22px;
+	font-size: 16px;
+	color: black;
+}
+
+#computergirl{
+	
+}
+
+footer{
+	display:flex;
+	justify-content: center;
+	margin-top: 100px;
+}
