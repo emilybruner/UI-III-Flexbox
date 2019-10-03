@@ -63,29 +63,45 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* My code starts here */
+
 *{
 	margin-bottom: 15px;
 }
 	
 body{
 	margin-left: 80px;
-	width: 1000px;
+    width: 900px;
 }
-/* Navigation Code*/
+
+hr{
+	border: 1px solid black;
+}
+
+/* Navigation Code */
 
 #navbar{
 	display:flex;
 	height: 45px;
-	align-items: flex-start;	
+	justify-content: space-evenly;
+	margin: 10px;
+		
+}
+
+#links{
+	display:flex;
+	justify-content: space-between;
+	width: 100%;
+	opacity: .6;
+	margin-left: 10px;
 }
 
 #navlogo{
 	display: flex;
 	justify-content: flex-end;
-	align-items: flex-start;
 	height: 40px;
-	margin-top: -30px;
+	
+	
 }
 
 nav a{
@@ -94,6 +110,7 @@ nav a{
 	color:gray;
 	text-decoration: none;
 	font-family: 'Titillium Web', sans-serif;	
+	margin-top: 20px;
 }
 
 nav{
@@ -103,118 +120,98 @@ nav{
 	align-items: flex-start;
 }
 
+/* Header Picture Code */
 
-	/* End navigation code, beginning of Innovation Header code*/
-
-#innovation-header{
-	margin-top: 50px;
+#headerpicture{
+	display:flex;
+	justify-content: center;
 	margin-bottom: 20px;
-	display: flex;
-	justify-content: space-evenly;
 }
 
-.innovate{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	width: 49%;
-	font-size: 75px;
-	margin: 80px;
-}
+/* Services Section */
 
-#innovateimg{
-	display: flex;
-	height: 90%;
-	margin-top: 20px;
-	margin-right: 40px;
-}
-
-h1{
-	display: flex;
-	justify-content: center;
-}
-
-button{
-	margin-left: 143px;
-	width: 200px;
-}
-
-
-h1{
-	text-align: center;
-	font-size: 80px;
-	padding: 0px 100px;
-	width: 55%
-	vertical-align: top;
-	display: inline-block;
-}
-
-button{
-	border-radius: 10px;
-	background: white;
-	vertical-align: top;
-	margin-top: 5px;
-	padding: 10px 50px;
-	font-size: 14px;
-	font-family: 'Titillium Web', sans-serif;
-}
-
-button:hover{
-	color: blue;
-	background-color:white;
-}
-
-
-
-/* End header code, begin top content */
-.top-content{
-	width: 100%;
-	display:flex;
-}
-#features, #about{
+#services{
 	display: flex;
 	flex-direction: column;
-	width: 49%;
-	margin-bottom: 25px;
-	margin-top: 20px;
-	padding: 25px;
-	line-height: 20px;
-
-}
-/* End top content, begin bottom content code */
-.bottom-content{
-	display:flex;
-	width: 100%
-
-}
-#services, #product, #vision{
-	display: flex;
-	flex-direction: column;
-	width: 27%;
-	margin: 10px 30px 20px 30px;
-	line-height: 20px;
-	padding: 25px 0px;
-}
-
-.middle-img{
-	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	width: 95%;
-	margin-left: 20px;
 }
 
-/* Contact Code */
-.contact{
+h1{
+	font-size: 25px
+}
+
+/* Middle Content Boxes */
+
+#boxcontent{
+	display:flex;
+}
+#middleleft{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 47%;
+
+}
+
+#middleright{
 	display:flex;
 	flex-direction: column;
-	margin-top: 30px;
-	margin-bottom: 75px;
-	font-size: 16px
+	flex-direction: flex-end;
+	width: 47%;
 }
 
-/* Footer Code */
+#design, #marketing, #ios, #ux, #web, #android{
+	Border: 3px solid black;
+	margin: 20px;
+	padding: 15px;
+	background-color: whitesmoke;
+}
+
+button{
+	margin-top: 20px;
+	background-color:white;
+	padding-left: 20px;
+	padding-right: 20px
+}
+
+
+/* Bottom Content Code */
+
+#facts{
+	display: flex;
+	margin-right: 5px;
+	margin-bottom: 30px;
+	align-items: center;
+	width: 93%;
+}
+
+#factstext{
+	display: flex;
+	justify-content: space between;
+	font-size: 20px;
+	align-items: center;
+}
+
+#annoyingp{
+	margin-right: 30px;
+	padding-bottom: 20px;
+	font-size 14px;
+}
+
+ul{
+	list-style-type: disc;
+	margin-left: 22px;
+	font-size: 16px;
+	color: black;
+}
+
+#computergirl{
+	
+}
 
 footer{
-	font-size: 13px
-	margin-bottom: 200px
+	display:flex;
+	justify-content: center;
+	margin-top: 100px;
 }
